@@ -7,6 +7,6 @@ public void test() {
         JsonObject jsonObject = new JsonObject();   
         Gson gson = new Gson();
         
-        jsonObject.add("array", gson.toJsonTree(arr));   // // jsonObject.add("array", gson.toJsonTree(arr));
+        jsonObject.add("array", gson.toJsonTree(arr));   // jsonObject.add("배열", gson.toJsonTree(arr));
         jsonObject.toString();
 ```
