@@ -3,6 +3,8 @@
 #### new Gson()
 #### new GsonBuilder.create()
 
+https://hianna.tistory.com/629#gson12-1
+
 ```JAVA
 public class GsonExample {
  
