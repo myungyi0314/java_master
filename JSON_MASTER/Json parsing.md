@@ -6,7 +6,6 @@
 
 
 ```JSON
-
 {
 	"status":"1",
 	"message":"OK",
@@ -26,5 +25,20 @@
                  }
          ]
 }
+```
 
+```JAVA
+String status = jsonObject.get("status").getAsString();
+String message = jsonObject.get("message").getAsString();
+
+// result에 {}가 2개 이기 때문에 size는 2가 되고, 0과 1의 인덱스를 가진 데이터로 나눌 수 있다.
+JsonArray jsonArray = jsonObject.getAsJsonArray("result");
+JsonElement jsonElement1 = jsonArray.get(0);  -> Apple
+JsonElement jsonElement2 = jsonArray.get(1);  -> Lemon
+String Name1 = jsonElement1.getAsJsonObject().get("Name").getAsString();
+String Name2 = jsonElement2.getAsJsonObject().get("Name").getAsString();
+
+---
+[Name1 = Apple]
+[Name2 = Lemon]
 ```
