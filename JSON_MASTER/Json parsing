@@ -5,7 +5,7 @@
 4. 어떤 data를 원하는 form으로 만들어 내는 것
 
 
-```json
+```JSON
 {
 	"status":"1",
 	"message":"OK",
@@ -16,13 +16,13 @@
 		"Stamp":"A123",
 		"hash":"0xa8948b23fe3",
 		"Name":"Apple"
- },
- {
- "Number":"2",
+                 },
+                {
+                "Number":"2",
 		"Stamp":"A124",
 		"hash":"0xf146b23d537",
 		"Name":"Lemon"
- }
-   ]
+                 }
+         ]
 }
 ```
