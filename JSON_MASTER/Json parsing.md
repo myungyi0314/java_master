@@ -26,7 +26,7 @@
          ]
 }
 ```
-
+# Parsing 작업
 ```JAVA
 String status = jsonObject.get("status").getAsString();
 String message = jsonObject.get("message").getAsString();
@@ -43,7 +43,7 @@ String Name2 = jsonElement2.getAsJsonObject().get("Name").getAsString();
 [Name1 = Apple]
 [Name2 = Lemon]
 ```
-
+# 데이터 형식
 ```shell
 JsonObject => { {}, {}, [{}, {}, {}] }
 JsonArray => [{}, {}, {}]
