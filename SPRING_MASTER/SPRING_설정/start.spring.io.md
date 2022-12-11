@@ -3,7 +3,8 @@
 
 SpringBoot 프로젝트를 setting
 
-![image](https://user-images.githubusercontent.com/52149400/206891437-c212a47a-eb1a-4949-9b90-2395e4ac402f.png)
+![image](https://user-images.githubusercontent.com/52149400/206893251-4e544b86-0e16-4940-85fc-561c3f103f6c.png)
+
 
 ## STEP2 
 ### 1. Project
