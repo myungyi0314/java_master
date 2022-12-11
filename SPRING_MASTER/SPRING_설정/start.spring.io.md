@@ -26,7 +26,7 @@ SpringBoot 프로젝트를 setting
 |Name |프로젝트명이다. |
 |Description | 프로젝트 관련 설명을 간단히 작성한다.|
 |Package name | 	패키지명이다. <br/>( ex: com.myungyi.hello)|
-|Packaging | 배포 형태 설정<br/>[jar] Java 어플리케이션이 동작할 수 있도록 프로젝트를 압축한 파일로, class와 라이브러리파일이 포함되어 있다. 그리고 JRE만 있어도 실행할 수 있다. 서버에서 java -jar hello.jar하면 실행가능<br/>[war] Servlet, Jsp 컨테이너를 배치할 수 있는 웹 어플리케이션을 압축한 파일이다. 웹 프로젝트에는 jsp, html , javasscript등 웹과 관련된것들이 포함되어 있고, 웹서버나 was가 필요<br/>웹화면이 필요한 어플리케이션은 war로 패키징하고 , api서버로 사용하는 것과 같이 사용한다면 java 프로젝트로만 동작하면 되기 때문에 jar로 하면 된다.    |
+|Packaging | 배포 형태 설정<br/><br/>[ jar ] >> Java 어플리케이션이 동작할 수 있도록 프로젝트를 압축한 파일로, class와 라이브러리파일이 포함되어 있다. 그리고 JRE만 있어도 실행할 수 있다. 서버에서 java -jar hello.jar하면 실행가능<br/><br/>[ war ] >> Servlet, Jsp 컨테이너를 배치할 수 있는 웹 어플리케이션을 압축한 파일이다. 웹 프로젝트에는 jsp, html , javasscript등 웹과 관련된것들이 포함되어 있고, 웹서버나 was가 필요<br/><br/>웹화면이 필요한 어플리케이션은 war로 패키징하고 , api서버로 사용하는 것과 같이 사용한다면 java 프로젝트로만 동작하면 되기 때문에 jar로 하면 된다.    |
 |Java | 사용하고자 하는 자바버전을 선택|
 
 
