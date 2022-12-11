@@ -1,5 +1,7 @@
 ## STEP1 JDK 설치 1.8
 
+[ORACLE JDK LINK](https://www.oracle.com/kr/java/)
+
 JDK안에는 개발 시 필요한 라이브러리들과 javac, javadoc 등의 개발 도구들을 포함되어 있고 개발을 하려면 당연히 실행도 시켜줘야 하기 때문에 JRE (Java Runtime Environment)도 함께 포함되어 있음
 ORACLE로 JAVA SE8 exe실행
 
