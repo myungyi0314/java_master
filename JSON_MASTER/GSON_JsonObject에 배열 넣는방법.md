@@ -10,5 +10,5 @@ public void test() {
         Gson gson = new Gson();
         
         jsonObject.add("array", gson.toJsonTree(arr));   // jsonObject.add("배열", gson.toJsonTree(arr));
-        jsonObject.toString();
+        jsonObject.toString();  // {"array":[1,2,3]}
 ```
