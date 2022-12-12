@@ -5,7 +5,7 @@
 
 https://hianna.tistory.com/629#gson12-1
 
-## 기본적인 toJson fromJson 사용법
+## 기본적인 toJson, fromJson 사용법
 
 ```JAVA
 public class GsonExample {
