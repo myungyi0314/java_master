@@ -43,10 +43,10 @@ public class JsonTestVO {
     public void testJson() {
         Gson gson = new Gson();
         
-        String json = "{\"lastName\":myungYi, \"firstName\": \"carry\", \"age\": 4}";
+        // String json = "{\"lastName\":myungYi, \"firstName\": \"carry\", \"age\": 4}";
         
         // @SerializedName("lastInfo") gson anotation으로 키값을 변경하였음
-        // 변경된 값으로만 들어간다.
+        // 변경된 값으로만 들어가기 때문에 anotation을 지우면 다시 원상태로 객체에 데이터가 맵핑된다.
         String json = "{\"lastInfo\":loveMyung, \"firstInfo\": \"park\", \"age\": 4}";
         MyInfor infor = gson.fromJson(json, MyInfor.class);
         System.out.println(infor);
