@@ -18,10 +18,10 @@ public class GsonExample {
         jsonObject.addProperty("name", "anna");
         jsonObject.addProperty("id", 1);
  
-        // JsonObject를 Json 문자열로 변환
+        // JsonObject를 Json 문자열로 변환한다.
         String jsonStr = gson.toJson(jsonObject);
         
-        // String을 jsonObject 데이터
+        // Json String을 JsonObject 데이터로 변환한다.
         JsonObject convertedObject1 = gson.fromJson(jsonData, JsonObject.class);
         JsonObject convertedObject2 = new Gson().fromJson(jsonData, JsonObject.class); 
         
