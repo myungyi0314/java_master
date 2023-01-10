@@ -20,7 +20,7 @@ public class GsonExample {
         jsonObject.addProperty("name", "anna");
         jsonObject.addProperty("id", 1);
  
-        // JsonObject를 Json 문자열로 변환한다.
+        // JsonObject를 String Json 문자열로 변환한다.
         String jsonStr = gson.toJson(jsonObject);
         
         // Json String을 JsonObject 데이터로 변환한다.
